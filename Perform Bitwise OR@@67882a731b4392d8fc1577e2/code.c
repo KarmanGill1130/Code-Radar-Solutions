@@ -1,8 +1,16 @@
 #include <stdio.h>
 
 int main() {
-   int a,b;
-   scanf("%d%d",&a,&b);
-    printf("%d", a+b);
+    int num1, num2, result;
+    printf("Enter the first number: ");
+    scanf("%d", &num1);
+
+    printf("Enter the second number: ");
+    scanf("%d", &num2);
+
+    result = num1 | num2;
+
+    printf(" %d\n", num1, num2, result);
+
     return 0;
 }
