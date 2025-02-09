@@ -13,6 +13,6 @@ int main() {
         printf("%d\n",c);
     }
     else
-        printf("Same")
+        printf("Same");
     return 0;
 }
