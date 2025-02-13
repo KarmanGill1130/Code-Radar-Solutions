@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main(){
     int marks;
@@ -12,13 +12,13 @@ int main(){
         printf("B");
     }
     else if (marks >= 70 && marks < 80){
-        printf("C")
+        printf("C");
     }
     else if (marks >= 60 && marks < 70){
-        printf("D")
+        printf("D");
     }
-    else if (marks < 60){ 
-        printf("F")
+    else { 
+        printf("F");
     }
     return 0;
 }
