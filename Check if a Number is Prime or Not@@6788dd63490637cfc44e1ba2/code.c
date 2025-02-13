@@ -1,13 +1,35 @@
 // Your code here...
-#include<stdio.h>
-int main(){
-    int a;
-    scanf("%d",&d);
-    if (a>1 && a%a==0){
-        printf("Prime");
+#include <stdio.h>
+
+// Function to check if a number is prime
+int is_prime(int num) {
+    if (num <= 1) {
+        return 0; // 0 and 1 are not prime numbers
     }
-    else{
-        printf("Not Prime");
+
+    for (int i = 2; i * i <= num; i++) {
+        if (num % i == 0) {
+            return 0; // num is divisible by i, so it's not a prime
+        }
     }
+
+    return 1; // num is prime
+}
+
+int main() {
+    int num;
+
+    // Take input from the user
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    // Check if the number is prime and print the result
+    if (is_prime(num)) {
+        printf("%d is a prime number.\n", num);
+    } else {
+        printf("%d is not a prime number.\n", num);
+    }
+
     return 0;
 }
+
