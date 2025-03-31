@@ -9,4 +9,7 @@ int main(){
     else if(n==2){
         printf(" 1 \n1 2 ");
     }
+    else if(n==3){
+        printf("  1  \n1 2 3");
+    }
 }
