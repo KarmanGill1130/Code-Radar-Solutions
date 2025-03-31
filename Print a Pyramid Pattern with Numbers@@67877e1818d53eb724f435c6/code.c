@@ -7,6 +7,6 @@ int main(){
         printf("1\n");
     }
     else if(n==2){
-        printf(" 1 \n 1 2 ");
+        printf(" 1 \n1 2 ");
     }
 }
